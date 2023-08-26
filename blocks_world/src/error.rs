@@ -1,7 +1,7 @@
 
 use std::{io, num, fmt};
 
-pub const DEBUG: bool = true;
+pub const DEBUG: bool = false;
 
 #[derive(fmt::Debug)]
 pub enum BWError {

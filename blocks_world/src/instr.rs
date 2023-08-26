@@ -6,19 +6,21 @@ use std::{
     fmt::Debug
 };
 
-use crate::error::{
-    BWError,
-    ParseInstrErr,
-    DEBUG
+use crate::{
+    error::{
+        BWError,
+        ParseInstrErr,
+    },
+    world::Block
 };
 
-#[derive(Debug)]
+#[derive(Debug, Eq, PartialEq, Clone, Copy)]
 pub struct FromTo {
-    pub a: usize,
-    pub b: usize,
+    pub a: Block,
+    pub b: Block,
 }
-impl From<(usize, usize)> for FromTo {
-    fn from((a, b): (usize, usize)) -> Self {
+impl From<(Block, Block)> for FromTo {
+    fn from((a, b): (Block, Block)) -> Self {
         Self { a, b }
     }
 }
@@ -52,7 +54,7 @@ impl FromStr for OntoOrOver {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Eq, PartialEq, Clone, Copy)]
 pub enum Instr {
     MoveOnto(FromTo),
     MoveOver(FromTo),
@@ -100,13 +102,18 @@ pub fn read_instrs() -> Result<(Instrs, usize), BWError> {
     let mut buffer = String::new();
     let stdin = io::stdin();
     stdin.read_line(&mut buffer)?;
+    let buffer = buffer.trim();
     let num_blocks: usize = buffer.parse()?;
     let mut instrs: Instrs = Instrs::new();
 
     for line in stdin.lock().lines() {
         let line = line?;
         let instr: Instr = line.parse()?;
+        let should_break = instr == Instr::Quit;
         instrs.push(instr);
+        if should_break {
+            break;
+        }
     }
 
     Ok((instrs, num_blocks))
