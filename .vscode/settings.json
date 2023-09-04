@@ -1,0 +1,6 @@
+{
+    "markdown.styles": [
+        "code.css"
+    ],
+    "markdown.extension.print.imgToBase64": true
+}
