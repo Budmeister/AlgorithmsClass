@@ -90,4 +90,16 @@ Overall, we can execute any instruction in $O(H)$ time. Therefore, we can execut
 We can tell if an instruction is illegal quite easily because we can find a block's location in constant time.
 
 ![Runtime Graph](runtime.png)
+
 *Runtime is proportional to the number of instructions*
+
+## Emperical Analysis
+
+I timed the program with random instructions with world sizes and instruction counts ranging from [500, 1000, 1500, ..., 10000]. It appears that for worlds smaller than 4000, my program finished in about 0.8s, for worlds between between 4000 and 10000, it finished in about 1.8s, and for worlds around 10000, it finished around 2.8s, regardless of the number of instructions. This is different that I would have expected. My best guess is that the operating system is doing something weird with the memory allocation that kicks in at these points. 
+
+![Emperical Graph](empirical.png)
+
+*Processing time increases with the number of instructions but the size of the world makes a much bigger difference.*
+
+## Conclusion
+I expected the runtime to be roughly proportional to the number of instructions ($O(iH)$), but it turned out to be about constant with respect to the number of instructions. The biggest factor was the world size, but the jagged stair-stepping in the graph makes me suspect interference with the operating system.

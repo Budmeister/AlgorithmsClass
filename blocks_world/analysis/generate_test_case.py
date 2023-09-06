@@ -38,19 +38,25 @@ def save_instrs(n, instrs, output_dir):
 def main():
     print("[0] Random")
 
-    kind = int(input("What kind of test cases would you like? "))
+    kinds = [int(x) for x in input("What kind of test cases would you like? ").split()]
 
-    kinds = [
+    kind_namess = [
+        "random"
+    ]
+    kindss = [
         generate_random_instruction
     ]
-    kind = kinds[kind]
+    kinds = [(kindss[x], kind_namess[x]) for x in kinds]
 
-    n = int(input("How big is the world? "))
-    i = int(input("How many instructions do you want? "))
-    output_dir = input("Where should the output be? ")
-
-    instrs = generate_instrs(kind, n, i)
-    save_instrs(n, instrs, output_dir)
+    ns = [int(x) for x in input("How big is the world? ").split()]
+    is_ = [int(x) for x in input("How many instructions do you want? ").split()]
+    
+    for (kind, kind_name) in kinds:
+        for n in ns:
+            for i in is_:
+                output_dir = f"test_cases/{kind_name}_{n}x{i}.txt"
+                instrs = generate_instrs(kind, n, i)
+                save_instrs(n, instrs, output_dir)
 
 
 if __name__ == "__main__":
