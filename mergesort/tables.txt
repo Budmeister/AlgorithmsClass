@@ -1,0 +1,98 @@
+void sort(int[] array) {
+comp = 0;
+comp++;
+if(array.length > 1) {
+int halfSize = array.length / 2;
+int[] leftArray = new int[halfSize];
+int[] rightArray = new int[array.length - halfSize];
+System.arraycopy(array, 0, leftArray, 0, halfSize);
+System.arraycopy(array, halfSize, rightArray, 0, array.length - halfSize);
+sort(leftArray);
+sort(rightArray);
+merge(array, 0, leftArray, rightArray);
+}
+}
+private void merge(int[] outputSequence, int dest, int[] leftSequence, int[] rightSequence) {
+                int i = dest;
+                int j = 0;
+                int k = 0;
+
+                while(i < leftSequence.length && j < rightSequence.length) {
+                    comp++;
+                    if(leftSequence[i] < rightSequence[j])
+                        outputSequence[k++] = leftSequence[i++];
+                    else
+                        outputSequence[k++] = rightSequence[j++];
+                }
+                
+                while(i < leftSequence.length) {
+                    comp++;
+                    outputSequence[k++] = leftSequence[i++];
+                }
+                comp++;
+                
+                while(j < rightSequence.length) {
+                    comp++;
+                    outputSequence[k++] = rightSequence[j++];
+                }
+                comp++;
+            }
+| Code                       |  Cost | Frequency |
+| -------------------------- | ----- | - |
+| `void sort(int[] array) {` | $0$   | 1 |
+| `comp = 0;`                | $c_1$ | 1 |
+| `comp++;`                  | $c_2$ | 1 |
+| `if(array.length > 1) {`   | $c_3$ | 1 |
+| `int halfSize = array.length / 2;` | $c_4$ | 1 |
+| `int[] leftArray = new int[halfSize];` | $c_5$ | 1 |
+| `int[] rightArray = new int[array.length - halfSize];` | $c_6$ | 1 |
+| `System.arraycopy(array, 0, leftArray, 0, halfSize);` | $n$ | 1 | 
+| `System.arraycopy(array, halfSize, rightArray, 0, array.length - halfSize);` | $n$ | 1 |
+| `sort(leftArray);` | $T_s(n/2)$ | 1 |
+| `sort(rightArray);` | $T_s(n/2)$ | 1|
+| `merge(array, 0, leftArray, rightArray);` | $n$ | 1 |
+| `}` | 0 | 1 |
+| `}` | 0 | 1 |
+
+
+| Code                       |  Cost | Frequency |
+| -------------------------- | ----- | - |
+| `private void merge(int[] outputSequence, int dest, int[] leftSequence, int[] rightSequence) {` | $0$ | 1 |
+| `int i = dest;` | $c_1$ | 1 |
+| `int j = 0;` | $c_2$ | 1 |
+| `int k = 0;` | $c_3$ | 1 |
+| `while(i < leftSequence.length && j < rightSequence.length) {` | $c_4$ | $n$ |
+| `comp++;` | $c_5$ | $n$ |
+| `if(leftSequence[i] < rightSequence[j])` | $c_6$ | $n$ |
+| `outputSequence[k++] = leftSequence[i++];` | $c_7$ | $n$ |
+| `else` | $0$ | $n$ |
+| `outputSequence[k++] = rightSequence[j++];` | $c_8$ | $n$ |
+| `}` | $0$ | 1 |
+| `while(i < leftSequence.length) {` | $c_9$ | $n$ |
+| `comp++;` | $c_10$ | $n$ |
+| `outputSequence[k++] = leftSequence[i++];` | $c_11$ | $n$ |
+| `}` | $0$ | 1 |
+| `comp++;` | $c_12$ | 1 |
+| `while(j < rightSequence.length) {` | $c_13$ | $n$ |
+| `comp++;` | $c_14$ | $n$ |
+| `outputSequence[k++] = rightSequence[j++];` | $c_15$ | $n$ |
+| `}` | $0$ | 1 | 
+| `comp++;` | $c_16$ | 1 |
+| `}` | $0$ | 1 |
+
+$$2^i=n$$
+$$i=log_2(n)$$
+$$i=lg(n)$$
+
+$$T(n) = c + 2T_{MS}(\frac{n}{2}) + n$$
+$$=2T_{MS}(\frac{n}{2})+n$$
+$$=2(2T_{MS}(\frac{n}{2^2}) + \frac{n}{2})+n$$
+$$=2^2T_{MS}(\frac{n}{2^2})+2n$$
+$$=2^2(2T_{MS}(\frac{n}{2^3}+\frac{n}{2^2})+2n$$
+$$=2^iT_{MS}(\frac{n}{2^i})+in$$
+$$=2^{lg(n)}T_{MS}(\frac{n}{lg(n)})+nlg(n)$$
+$$=n1*T_{MS}(1)+nlg(n)$$
+$$=nlg(n)$$
+\Theta(nlg(n))
+
+

@@ -1,0 +1,103 @@
+package cosc3503ch_mergesort;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class COSC3503CH_MergeSort {    
+    public static void main(String[] args) throws FileNotFoundException, IOException {
+        class MergeSort {
+            int comp = 0;
+            
+            void sort(int[] array) {
+                comp = 0;
+                comp++;
+                if(array.length > 1) {
+                    int halfSize = array.length / 2;
+                    int[] leftArray = new int[halfSize];
+                    int[] rightArray = new int[array.length - halfSize];
+                    System.arraycopy(array, 0, leftArray, 0, halfSize);
+                    System.arraycopy(array, halfSize, rightArray, 0, array.length - halfSize);
+
+                    sort(leftArray);
+                    sort(rightArray);
+
+                    merge(array, 0, leftArray, rightArray);
+                }
+            }
+
+            private void merge(int[] outputSequence, int dest, int[] leftSequence, int[] rightSequence) {
+                int i = dest;
+                int j = 0;
+                int k = 0;
+
+                while(i < leftSequence.length && j < rightSequence.length) {
+                    comp++;
+                    if(leftSequence[i] < rightSequence[j])
+                        outputSequence[k++] = leftSequence[i++];
+                    else
+                        outputSequence[k++] = rightSequence[j++];
+                }
+                
+                while(i < leftSequence.length) {
+                    comp++;
+                    outputSequence[k++] = leftSequence[i++];
+                }
+                comp++;
+                
+                while(j < rightSequence.length) {
+                    comp++;
+                    outputSequence[k++] = rightSequence[j++];
+                }
+                comp++;
+            }
+            
+            int numComparisons() {
+                return comp;
+            }
+        }
+        MergeSort mergeSort = new MergeSort();
+        try (PrintWriter writer = new PrintWriter("output.txt", "UTF-8")) {
+            File file = new File("C:\\Users\\Carter Hidalgo\\Documents\\Analysis of Algorithms\\Assignments\\COSC3503CH_MergeSort\\src\\cosc3503ch_mergesort\\input.txt");
+            Scanner sc = new Scanner(file);
+            int size;
+            int[] numbers;
+            int[] check;
+            
+            while(sc.hasNext()) {
+                size = sc.nextInt();
+                numbers = new int[size];
+                check = new int[size];
+                
+                for(int i = 0; i < numbers.length; i++)
+                    numbers[i] = sc.nextInt();
+                
+                System.arraycopy(numbers, 0, check, 0, numbers.length);
+                Arrays.sort(check);
+                
+//                for(int i : numbers)
+//                    System.out.print(i + " ");
+//                System.out.println("");
+//                for(int i : check) 
+//                    System.out.print(i + " ");
+//                System.out.println("");
+                           
+                
+                final long startTime = System.currentTimeMillis();
+                mergeSort.sort(numbers);
+                final long endTime = System.currentTimeMillis();
+                final long runTime = endTime - startTime;
+                
+                if(Arrays.compare(numbers,check) != 0) {
+                    System.out.println("Test case " + size + " had an error");
+                }
+                
+                writer.println(size + "," + runTime + "," + mergeSort.numComparisons());
+            }
+        }
+    }
+}
