@@ -15,3 +15,5 @@ Cargo.lock
 
 # Mergesort
 mergesort/*/test_cases.*
+
+venv
