@@ -52,10 +52,6 @@ void sort(int[] array) {
 | `}` | 0 | 1 |
 | `}` | 0 | 1 |
 
-$$2^i=n$$
-$$i=log_2(n)$$
-$$i=lg(n)$$
-
 ### Method 1: `void merge(int[], int, int[], int[])`
 ```Java
 private void merge(int[] outputSequence, int dest, int[] leftSequence, int[] rightSequence) {
@@ -138,7 +134,7 @@ $$\Theta(nlg(n))$$
 The number of comparisons increased linearly with the size of input (independent of the organization), but the performance depended on how organized the input was. Inputs that were already Sorted or Sorted in Reverse resulted in the lowest times with Almost Sorted and Almost Sorted in Reverse were very close in many cases, and both random cases performed much worse. 
 
 ## Conclusion
-
+One interesting outcome from this analysis of the merge sort is that the initial state of the data had an impact on the performance of the sort. This is interesting because the merge sort always breaks down the problem into an equal number of sub-problems, as seen by the constant number of comparisons for each iteration of a given input size. It could be that the merge sort works best with large input sizes, and as we "zoom out" on the graph by increasing the input size the difference between the sorted variations and the random variations decreases. After all, the benefits of log-based algorithms are best seen with large input times. Alternatively, it may be that there is some optimization going on which is hidden from us that allows working with sorted lists or near sorted lists to run faster on my particular machine. Either way, we should keep in mind that the difference in sorting time was minimal - only a handful of milliseconds between input sizes of up to 1,000,000. The best conclusion to take from this analysis is that the merge sort is consistant in terms of cost while still providing a very fast sort, particularly for large input sizes. 
 
 ## Appendix: Raw Data
 
