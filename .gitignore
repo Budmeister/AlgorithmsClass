@@ -17,3 +17,6 @@ Cargo.lock
 mergesort/*/test_cases.*
 
 venv
+
+# Bdeb
+bdeb_c/main
