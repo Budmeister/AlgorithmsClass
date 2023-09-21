@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bdeb Proof</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        <style>
+body {
+    max-width: 1000px;
+    margin: 0 auto; /* Center the content horizontally within the viewport */
+}
+</style>
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="bdeb-proof">Bdeb Proof</h1>
+<p>The goal of this report is to prove the correctness of my solution to Bdeb.</p>
+<h2 id="source">Source</h2>
+<p>Here is the code of interest. Note that the function, <code>count_positions</code>, calls the recursive function, <code>count_positions_r</code>. <code>count_positions_r</code> receives a reference to the variable, <code>count</code>, which will hold the solution. This way, it can be incremented every time a solution is found, rather than trying to add up a lot of different numbers.</p>
+<pre><code class="language-Rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">count_positions</span>(n: <span class="hljs-type">usize</span>, k: <span class="hljs-type">usize</span>) <span class="hljs-punctuation">-&gt;</span> <span class="hljs-type">usize</span> {
+    <span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">coords</span>: <span class="hljs-type">Vec</span>&lt;Coord&gt; = Vec::<span class="hljs-title function_ invoke__">new</span>();
+    <span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">count</span> = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> <span class="hljs-variable">start</span> = Coord { x: <span class="hljs-number">0</span>, y: <span class="hljs-number">0</span> };
+
+    <span class="hljs-title function_ invoke__">count_positions_r</span>(n, k, start, &amp;<span class="hljs-keyword">mut</span> coords, &amp;<span class="hljs-keyword">mut</span> count);
+
+    count
+}
+
+<span class="hljs-keyword">fn</span> <span class="hljs-title function_">count_positions_r</span>(n: <span class="hljs-type">usize</span>, k: <span class="hljs-type">usize</span>, start: Coord, coords: &amp;<span class="hljs-keyword">mut</span> <span class="hljs-type">Vec</span>&lt;Coord&gt;, count: &amp;<span class="hljs-keyword">mut</span> <span class="hljs-type">usize</span>) {
+    <span class="hljs-comment">// println!(&quot;n: {}, k: {}&quot;, n, k);</span>
+    <span class="hljs-comment">// Only look at positions beyond `start`</span>
+    <span class="hljs-keyword">let</span> <span class="hljs-variable">Coord</span> { <span class="hljs-keyword">mut</span> x, <span class="hljs-keyword">mut</span> y } = start;
+    <span class="hljs-keyword">loop</span> {
+        <span class="hljs-keyword">loop</span> {
+            <span class="hljs-comment">// println!(&quot;\tx: {}, y: {}&quot;, x, y);</span>
+            <span class="hljs-keyword">let</span> <span class="hljs-variable">coord</span> = Coord { x, y };
+            <span class="hljs-keyword">let</span> <span class="hljs-variable">is_attacking</span> = coords
+                .<span class="hljs-title function_ invoke__">iter</span>()
+                .<span class="hljs-title function_ invoke__">any</span>(|already| coord.<span class="hljs-title function_ invoke__">is_attacking</span>(already));
+            <span class="hljs-keyword">if</span> !is_attacking {
+                <span class="hljs-comment">// print!(&quot;\tSafe&quot;);</span>
+                <span class="hljs-keyword">if</span> k == <span class="hljs-number">1</span> {
+                    <span class="hljs-comment">// println!(&quot; - Incrementing count&quot;);</span>
+                    *count += <span class="hljs-number">1</span>;
+                } <span class="hljs-keyword">else</span> {
+                    <span class="hljs-comment">// println!();</span>
+                    coords.<span class="hljs-title function_ invoke__">push</span>(coord);
+                    <span class="hljs-title function_ invoke__">count_positions_r</span>(n, k - <span class="hljs-number">1</span>, coord, coords, count);
+                    coords.<span class="hljs-title function_ invoke__">pop</span>();
+                }
+            }
+            y += <span class="hljs-number">1</span>;
+            <span class="hljs-keyword">if</span> y &gt;= n {
+                y = <span class="hljs-number">0</span>;
+                <span class="hljs-keyword">break</span>;
+            }
+        }
+        x += <span class="hljs-number">1</span>;
+        <span class="hljs-keyword">if</span> x &gt;= n {
+            <span class="hljs-keyword">break</span>;
+        }
+    }
+}
+</code></pre>
+<h2 id="proof">Proof</h2>
+<p>We will prove that this is correct using mathematical induction.</p>
+<h3 id="base-case">Base Case</h3>
+<p>Let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k = 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>. Then, the correct answer is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>n</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">n^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> valid arrangements. <code>count_positions</code> will call <code>count_positions_r</code>, starting at the coordinates, <code>(0, 0)</code>. <code>count_positions_r</code> will iterate through all positions because of the double loop. <code>is_attacking</code> will always be false, because <code>coords</code> will always be empty. So, <code>count</code> will be incremented <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>n</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">n^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> times, which will give us the correct answer.</p>
+<h3 id="k--1-case"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k + 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> Case</h3>
+<p>Assume the algorithm be true for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span>. Now, we must prove it is true for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k+1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>. In the language of the program, assume <code>count_positions_r(n, k - 1, coord, coords, count)</code> gives the correct answer. Now, we must prove that <code>count_positions_r(n, k, coord, coords, count)</code> gives the correct answer.</p>
+<p>The <code>coords</code> vector holds the list of already existing bishops. We know this is true because <code>count_positions_r</code> is called in two places, once in <code>count_position</code>, and once in itself. In both cases, <code>coords</code> is updated before the call is made, and after the recursive call, it is updated again. Thus, assuming that the function, <code>Coord::is_attacking</code> is correctly implemented, then the local variable, <code>is_attacking</code> will be correct.</p>
+<p>Only if the newly added bishop is not attacking any previously added bishop (<code>if !is_attacking</code>) can we consider this as a possible valid position and move on with processing. We already considered if <code>k == 1</code>. We can't increment <code>count</code> until all bishops are on the board, so if <code>k &gt; 1</code>, then we will call <code>count_positions_r</code> with <code>coords</code> including the newly added bishop. <code>count_positions_r(n, k - 1, coord, coords, count)</code> is assumed to be correct, so the answer to the <code>count_positions_r(n, k - 1, coord, coords, count)</code> is correct.</p>
+<p>The value <code>start</code>, also called <code>coord</code> (I really didn't need to unpack it into <code>x</code> and <code>y</code> and then repack it into <code>coord</code>.) moves forward throughout the function call. The assumption is that when <code>count_positions_r</code> is called with a <code>start</code> value, all <code>start</code> values before that one (that is, <code>x' &lt; x || (x' == x &amp;&amp; y' &lt; y)</code>) have already been checked and counted. This is comparable to the combination counting algorithm that iterates over pairs but considers <code>(a, b) == (b, a)</code>.</p>
+<pre><code class="language-Rust"><span class="hljs-keyword">for</span> <span class="hljs-variable">a</span> <span class="hljs-keyword">in</span> <span class="hljs-number">0</span>..(n-<span class="hljs-number">1</span>) {
+    <span class="hljs-keyword">for</span> <span class="hljs-variable">b</span> <span class="hljs-keyword">in</span> (a+<span class="hljs-number">1</span>)..n {
+        <span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;({}, {})&quot;</span>, a, b);
+    }
+}
+</code></pre>
+
+        <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
+    </body>
+    </html>
