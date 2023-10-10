@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from time import time
 from random import sample
+from sorts import counting_sort, bucket_sort
 
 def test_sort(sorts, sizes, k, results_path, epochs=5):
     sizes = np.array(sizes)
@@ -58,7 +59,9 @@ def test_sort(sorts, sizes, k, results_path, epochs=5):
 if __name__ == "__main__":
     from radix import radix_sort
     sorts = [
-        (radix_sort, "Radix Sort")
+        (radix_sort, "Radix Sort"),
+        (counting_sort, "Counting Sort"),
+        (bucket_sort, "Bucket Sort"),
     ]
     sizes = list(range(100_000, 1_000_001, 100_000))
     k = 1_000_000
