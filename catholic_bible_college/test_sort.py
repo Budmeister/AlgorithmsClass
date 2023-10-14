@@ -33,6 +33,7 @@ def test_sort(sorts, sizes, k, results_path, epochs=5):
                 start = time()
                 b = sort(a[:])
                 end = time()
+                b = list(b)
                 dt = end - start
 
                 print("\tChecking answer...")
@@ -42,6 +43,9 @@ def test_sort(sorts, sizes, k, results_path, epochs=5):
                 times_incorrect += not correct
 
                 print(f"\tcorrect: {correct}")
+                if not correct:
+                    idxs = np.argwhere(a != b)
+                    print(idxs)
                 print(f"\tTime: {dt}")
                 print()
                 avg_time += dt
@@ -65,4 +69,4 @@ if __name__ == "__main__":
     ]
     sizes = list(range(100_000, 1_000_001, 100_000))
     k = 1_000_000
-    test_sort(sorts, sizes, k, "results.csv", epochs=5)
+    test_sort(sorts, sizes, k, "results.csv", epochs=1)

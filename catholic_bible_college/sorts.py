@@ -40,11 +40,11 @@ def bucket_sort(array):
     maximum_divisor = max(array) + 1
     buckets = []
     ## create each bucket as an empty list
-    for i in range(0,n):
+    for i in range(0,maximum_divisor):
         buckets.append([])
     ## place the element into its respective bucket
     for i in range(0, n):
-        buckets[int(n*(array[i]/(maximum_divisor)))].append(array[i])
+        buckets[int(array[i])].append(array[i])
     ## use insertion sort on each bucket
     for i in range(0, n):
         buckets[i] = insertion_sort(buckets[i])
