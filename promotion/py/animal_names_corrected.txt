@@ -1,0 +1,950 @@
+Whisker Doodle
+Noodle Paws
+Fluffy McSquiggles
+Biscuit Bumpkin
+Squeakers McFloof
+Wiggly Whiskers
+Pippin Paws
+Fuzzy McWubbles
+Nibbles McGiggles
+Munchkin Muffin
+Cuddlesnoot
+Wigglebutt
+Furry McSnugglekins
+Skittlesniff
+Fluffernutter
+Wiggletail
+Snugglebug
+Puddlesnoot
+Wobbletoes
+Twerpington
+Fizzlesnout
+Cuddlemonster
+Floofylicious
+Wigglesworth
+Skippitydoo
+Sassypants
+Puddlejumper
+Snickerdoodle
+Bumblebee Bop
+Curlywhiskers
+Noodle Nuzzler
+Gigglesnort
+Fuzzball McGee
+Ticklesnout
+Puddlepudding
+Wobblewhiskers
+Banana Bounce
+Pippity Pop
+Whiskersnuggle
+Fuzzyfoot
+Wigglebuns
+Bubblegum Belly
+Snuggletoes
+Squeakybop
+Cuddlefish
+Bumblywump
+Wobbletoes
+Fluffernugget
+Nibblesnort
+Munchkinmuffin
+Ziggy the Zebra
+Luna the Lemur
+Jinx the Jaguar
+Milo the Meerkat
+Rosie the Raccoon
+Oscar the Octopus
+Pippin the Pangolin
+Kiwi the Kangaroo
+Nala the Narwhal
+Bongo the Baboon
+Zara the Zorilla
+Quilliam the Quokka
+Gigi the Gila Monster
+Pearl the Penguin
+Remy the Red Panda
+Taz the Tortoise
+Elvis the Elephant
+Finley the Flamingo
+Wally the Warthog
+Tilly the Tiger
+Benny the Bat
+Dotty the Dingo
+Kiki the Koala
+Gideon the Gorilla
+Winnie the Walrus
+Sasha the Sloth
+Ollie the Otter
+Lulu the Llama
+Chester the Cheetah
+Penny the Platypus
+Trixie the Tapir
+Bruno the Butterfly
+Olive the Orangutan
+Patch the Peacock
+Rocky the Rattlesnake
+Marley the Manatee
+Zeke the Zebra Finch
+Hazel the Hedgehog
+Jasper the Jellyfish
+Chloe the Chinchilla
+Zephyr the Zebra Shark
+Cleo the Capybara
+Parker the Puffin
+Mabel the Mouse
+Ryder the Red Fox
+Indie the Impala
+Quincy the Quail
+Koko the Komodo Dragon
+Apollo the Albino Alligator
+Luna the Lyrebird
+Zippy the Zebra
+Wiggles the Walrus
+Furry the Ferret
+Bubbles the Bunny
+Sprinkles the Sloth
+Giggles the Giraffe
+Whiskers the Weasel
+Puddles the Penguin
+Fuzzy the Fox
+Sparkle the Squirrel
+Bongo the Baboon
+Nimbus the Narwhal
+Tango the Toucan
+Zigzag the Zebu
+Jinx the Jaguar
+Whiskerface the Warthog
+Pippin the Platypus
+Rascal the Raccoon
+Squiggles the Snail
+Zara the Zebrafish
+Chompers the Cheetah
+Wobbles the Wombat
+Skittles the Skunk
+Chatterbox the Chipmunk
+Midnight the Moon Jellyfish
+Snuffles the Stingray
+Scooter the Seahorse
+Snickers the Snapping Turtle
+Flicker the Firefly
+Flutter the Flamingo
+Whistle the Warbler
+Boomer the Butterfly
+Pepper the Peacock
+Sprout the Spider
+Snugglepuff the Sloth Bear
+Cuddles the Capybara
+Nibbles the Newt
+Twinkle the Tarantula
+Nimbus the Nudibranch
+Quirky the Quokka
+Dizzy the Dolphin
+Zephyr the Zebra Finch
+Marbles the Manatee
+Squiggles the Salamander
+Whiskers the Wallaby
+Flick the Fennec Fox
+Cammie the Chameleon
+Rumble the Rhinoceros
+Pippa the Pygmy Goat
+Ziggy the Zonkey
+Ziggy
+Waffles
+Luna
+Pippin
+Quill
+Gizmo
+Zephyr
+Clover
+Apollo
+Biscuit
+Jinx
+Pickles
+Monarch
+Sprinkle
+Cricket
+Tango
+Noodle
+Whiskers
+Cinnamon
+Bongo
+Muffin
+Pebbles
+Marshmallow
+Jester
+Bubbles
+Popcorn
+Sprocket
+Jellybean
+Doodle
+Peanut
+Pookie
+Maverick
+Twinkle
+Snickers
+Quirk
+Fizzy
+Pistachio
+Giggles
+Bumblebee
+Mischief
+Taffy
+Dazzle
+Tater Tot
+Nugget
+Polka Dot
+Kiwi
+Boomer
+Cupcake
+Rascal
+Sprout
+Zoodle the Zebra
+Quackamole the Duck
+Fuzzle the Ferret
+Wiggles the Wombat
+Squiggle the Squid
+Bumble the Butterfly
+Snickerdoodle the Snail
+Jeepers the Jellyfish
+Whiskers the Wallaby
+Jazzy the Jaguar
+Pippin the Penguin
+Ruffles the Raccoon
+Bongo the Bumblebee
+Razzle the Rhino
+Hissy the Hedgehog
+Wiggly the Whale
+Fizzles the Fox
+Puddles the Platypus
+Noodle the Narwhal
+Kuiper the Kangaroo
+Jumble the Jellyfish
+Dottie the Dalmatian
+Cinnamon the Cheetah
+Ziggy the Zebu
+Tinker the Toucan
+Hopper the Hummingbird
+Bandit the Bat
+Pebbles the Pelican
+Sprinkles the Squirrel
+Tango the Tiger
+Doodlebug the Dingo
+Winkles the Walrus
+Snoop the Sloth
+Sparkle the Stingray
+Fandango the Flamingo
+Zippy the Zonkey
+Marble the Meerkat
+Whimsy the Warthog
+Jingle the Jackal
+Gizmo the Gecko
+Kismet the Koala
+Nibbles the Numbat
+Pudding the Porcupine
+Bolt the Bison
+Sundae the Seahorse
+Fidget the Falcon
+Quibble the Quokka
+Tootsie the Tortoise
+Puffin the Poodle
+Fuzzball the Fennec Fox
+Ziggy
+Whiskers
+Jinx
+Noodle
+Luna
+Bubbles
+Sprinkles
+Champ
+Mischief
+Gizmo
+Pippin
+Waffles
+Snickers
+Dash
+Pebbles
+Popcorn
+Gizmo
+Jellybean
+Tango
+Chirp
+Bonkers
+Peaches
+Kiwi
+Nibbles
+Zorro
+Bongo
+Nutmeg
+Tinkerbell
+Fuzzball
+Snuffles
+Sprout
+Razzle
+Truffle
+Puddles
+Muffin
+Quicksilver
+Tootsie
+Pickles
+Jester
+Squeak
+Poppy
+Biscuit
+Noodle
+Whiskers
+Snickerdoodle
+Bubblegum
+Sprinkles
+Mischief
+Marshmallow
+Pippin
+Zephyr - for a fast and agile animal
+Luna - for a nocturnal and mysterious animal
+Ozzy - for a rock and roll loving animal
+Zorro - for a cunning and masked animal
+Willow - for a graceful and elegant animal
+Blitz - for an energetic and lightning-fast animal
+Jasper - for a gem-like and colorful animal
+Noodle - for a long and slinky animal
+Pepper - for a spunky and peppery animal
+Tinkerbell - for a small and mischievous animal
+Nimbus - for a fluffy and cloud-like animal
+Apollo - for a majestic and regal animal
+Pippin - for an adventurous and curious animal
+Juno - for a fierce and independent animal
+Bubbles - for a bubbly and playful animal
+Cosmo - for a space-loving and otherworldly animal
+Waffles - for a sweet and fluffy animal
+Zara - for a stylish and fashionable animal
+Fergus - for a strong and loyal animal
+Puddles - for a water-loving and splish-splashing animal
+Ivy - for a climbing and nature-loving animal
+Gizmo - for a tech-savvy and gadget-loving animal
+Opal - for a rare and unique animal
+Sprout - for a tiny and growing animal
+Maverick - for a rebellious and unconventional animal
+Muffin - for a soft and sweet animal
+Echo - for a talkative and echo-locating animal
+Tango - for a dance-loving and graceful animal
+Basil - for a herb-loving and aromatic animal
+Loki - for a mischievous and prankster animal
+Breeze - for a gentle and breezy animal
+Pixel - for a pixel-perfect and digitally inclined animal
+Snickers - for a funny and snack-loving animal
+Twinkle - for a starry-eyed and magical animal
+Mochi - for a chewy and squishy animal
+Marbles - for a playful and marble-eyed animal
+Ziggy - for a zigzagging and groovy animal
+Poppy - for a cheery and vibrant animal
+Sprocket - for a mechanical and gear-loving animal
+Kiwi - for a sweet and tangy animal
+Bongo - for a drumming and rhythmic animal
+Cocoa - for a warm and chocolaty animal
+Gizmo - for a curious and gadget-loving animal
+Mischief - for a playful and mischievous animal
+Sage - for a wise and knowledgeable animal
+Marmalade - for a bright and orange-colored animal
+Loki - for a cunning and mischief-making animal
+Snickerdoodle - for a sweet and cinnamon-spiced animal
+Fidget - for a restless and energetic animal
+Nibbles - for a small and nibbling animal
+Wiggles
+Sparkles
+Ziggy
+Whiskers
+Bubbles
+Popcorn
+Snickers
+Noodle
+Jellybean
+Coconut
+Tater Tot
+Fuzzball
+Pippin
+Gingersnap
+Sprinkles
+Waffle
+Biscuit
+Wiggly Worm
+Gumdrop
+Tumbleweed
+Cuddles
+Marshmallow
+Peanut
+Pebbles
+Toffee
+Pudding
+Fiddlesticks
+Cinnamon
+Sassafras
+Bitsy
+Wobble
+Squeaky
+Speckles
+Bumblebee
+Cheesecake
+Twinkle Toes
+Chompers
+Jingle
+Whiskersnip
+Bouncy
+Buttercup
+Poptart
+Giggles
+Pickle
+Nibbles
+Flicker
+Tickles
+Honeybee
+Silly Goose
+Puffin
+Ziggy
+Luna
+Maverick
+Cleopatra
+Nimbus
+Gizmo
+Aurora
+Jinx
+Bubbles
+Zara
+Kiwi
+Frodo
+Noodle
+Zephyr
+Sprinkles
+Scooter
+Luna-tic
+Mojo
+Poppy
+Jellybean
+Waffles
+Whiskers
+Peanut
+Turbo
+Buttercup
+Snickers
+Zazu
+Pippin
+Peaches
+Bonkers
+Squiggles
+Ziggles
+Nibbles
+Gizzy
+Sizzle
+Quicksilver
+Tater Tot
+Biscuit
+Doodlebug
+Moonlight
+Sprout
+Zephyrine
+Marshmallow
+Buzzy
+Snuggles
+Crumb
+Wiggles
+Sparkle
+Pudding
+Giggles
+Ziggy the Zebra
+Luna the Llama
+Bubble the Bottlenose Dolphin
+Whiskers the Wolverine
+Sparkle the Seahorse
+Gizmo the Gecko
+Jinx the Jackal
+Clover the Chameleon
+Bubbles the Boa Constrictor
+Peanut the Pangolin
+Squiggle the Squirrel
+Pippin the Peacock
+Noodle the Newt
+Twinkle the Turtle
+Zephyr the Zorilla
+Pickles the Porcupine
+Tango the Tarantula
+Dizzy the Dingo
+Koala the Kangaroo
+Biscuit the Bat
+Puddles the Platypus
+Zuzu the Zebu
+Whimsy the Wallaby
+Wobbles the Wombat
+Sprinkle the Skunk
+Chompers the Chipmunk
+Boomer the Bandicoot
+Flipper the Flamingo
+Muffin the Mongoose
+Spark the Snail
+Quirk the Quokka
+Jingle the Jellyfish
+Snickers the Sloth
+Poppy the Puffin
+Razzle the Racoon
+Pogo the Pelican
+Flicker the Fossa
+Munchkin the Marmoset
+Pippa the Penguin
+Smudge the Salamander
+Nutmeg the Narwhal
+Whisker the Walrus
+Wiggles the Weasel
+Nibbles the Numbat
+Squishy the Stingray
+Winky the Lemur
+Wobble the Warthog
+Nimbus the Narwhal
+Fluffernutter the Fennec Fox
+Pizzazz the Puma
+Ziggy
+Luna
+Pepper
+Noodle
+Biscuit
+Pippin
+Gizmo
+Tofu
+Waffles
+Squiggles
+Nutmeg
+Snickers
+Pickles
+Kiwi
+Jellybean
+Sprinkles
+Muffin
+Marshmallow
+Whiskers
+Pudding
+Cricket
+Nibbles
+Magic
+Tango
+Pebbles
+Doodle
+Button
+Zephyr
+Wiggles
+Bubbles
+Jax
+Mango
+Olive
+Panda
+Peanut
+Quirk
+Rascal
+Sprout
+Truffle
+Sparkle
+Tic Tac
+Velcro
+Willow
+Yogi
+Zara
+Churro
+Giggles
+Mischief
+Tater Tot
+Zuzu
+Blizzard
+Waffles
+Luna
+Gizmo
+Zephyr
+Noodle
+Jazz
+Dash
+Willow
+Moomba
+Sprinkles
+Navi
+Squiggle
+Bumblebee
+Tango
+Whiskers
+Zelda
+Ozzy
+Puddles
+Sprocket
+Biscuit
+Pippin
+Peanut
+Flicker
+Nimbus
+Tango
+Snickerdoodle
+Zara
+Quicksilver
+Jinx
+Mochi
+Rumble
+Pixel
+Nibbles
+Sparkle
+Finnegan
+Sprout
+Cookie
+Nova
+Snickers
+Quirk
+Luna
+Ziggy
+Whimsey
+Fidget
+River
+Bongo
+Marshmallow
+Scooter
+Breeze
+Ziggy
+Luna
+Waffles
+Gizmo
+Noodle
+Tango
+Quirk
+Pippin
+Bubbles
+Munchkin
+Pixel
+Sprinkle
+Zephyr
+Wiggles
+Jinx
+Momo
+Snickers
+Puddles
+Whiskers
+Cheeks
+Twinkle
+Biscuit
+Fuzzy
+Popcorn
+Peanut
+Pepper
+Niblet
+Jagger
+Sushi
+Honeybee
+Razzle
+Fidget
+Marbles
+Doodle
+Sprout
+Cinnamon
+Dazzle
+Bongo
+Truffle
+Bubbly
+Snickerdoodle
+Glimmer
+Ruffles
+Pippa
+Fiddlesticks
+Kiwi
+Fancypants
+Quigley
+Noodle
+Whisper
+Zephyr the Zebra
+Luna the Llama
+Sprocket the Sloth
+Pippin the Pangolin
+Jax the Jaguar
+Willow the Wallaby
+Gizmo the Gecko
+Waffles the Wombat
+Echo the Emu
+Mango the Manatee
+Willow the Woodpecker
+Pogo the Penguin
+Zara the Zebu
+Tango the Toucan
+Kiwi the Koala
+Pebbles the Pelican
+Biscuit the Bat
+Dash the Dolphin
+Widget the Walrus
+Twinkle the Turtle
+Quake the Quokka
+Buzz the Batfish
+Noodle the Narwhal
+Pixel the Platypus
+Ziggy the Zonkey
+Turbo the Tarantula
+Wiggles the Wombat
+Bongo the Baboon
+Sprinkle the Seahorse
+Curly the Chameleon
+Iggy the Iguana
+Leela the Lemur
+Oreo the Octopus
+Fuzzy the Ferret
+Quincy the Quail
+Domino the Dingo
+Ziggy the Zebra Finch
+Nibbles the Numbat
+Zola the Zonkey
+Jinx the Jellyfish
+Sprout the Snail
+Rocky the Raccoon
+Mochi the Meerkat
+Tiki the Tapir
+Wiggles the Worm
+Zara the Zorilla
+Nitro the Nuthatch
+Chompers the Chipmunk
+Zuzu the Zebra Shark
+Skipper the Stingray
+Zephyr
+Luna
+Jasper
+Pixel
+Velvet
+Honeydew
+Nimbus
+Zara
+Moxie
+Orion
+Pippin
+Tango
+Ozzy
+Stardust
+Coco
+Snickers
+Darcy
+Blitz
+Whiskers
+Marbles
+Zuzu
+Cricket
+Gizmo
+Juniper
+Jinx
+Bandit
+Noodle
+Twinkle
+Peppermint
+Saffron
+Kismet
+Gingersnap
+Puddles
+Cinnamon
+Sprinkles
+Maverick
+Bubbles
+Willow
+Zorro
+Slinky
+Peanut
+Pickles
+Biscuit
+Waffles
+Marshmallow
+Gumball
+Sassafras
+Nimbus
+Gulch
+Tango
+Whiskerbits
+Zippereel
+Flutterpaws
+Tumbletoes
+Gigglesnout
+Snugglefluff
+Bumblesnuggle
+Hopperwings
+Fuzzysprout
+Twinklewhisk
+Wigglesnout
+Bouncetail
+Puddlestomp
+Nibblesnoot
+Cozycurls
+Snufflenose
+Snickerpaws
+Squeakles
+Wobblewings
+Feathersniffle
+Pouncebound
+Wagglenose
+Whifflewhisk
+Squeakhugs
+Tussletoe
+Glimmertail
+Frogleap
+Flutterfur
+Hopscotch
+Cuddleclaws
+Wrigglepaw
+Tumblefluff
+Nuzzlesniff
+Snickerfluff
+Waddlewhisk
+Blinkytail
+Sprinklesniff
+Bouncybum
+Strandswirl
+Breezepaws
+Trickletoes
+Scuttlefluff
+Fumblebelly
+Squeezywhisk
+Jollysnout
+Tippytail
+Zippysniff
+Doodlesprout
+Perkynose
+Snugglethump
+Bumblehoot
+Waffles
+Whiskersnout
+Zippity
+Puddles
+Fuzzball
+Pepperoni
+Quirky
+Noodle
+Snickerdoodle
+Sprinkles
+Cuddlebug
+Tater Tot
+Jiggles
+Sassafras
+Fluffernutter
+Munchkin
+Marbles
+Biscuit
+Nibbles
+Doodlebug
+Wiggles
+Pickles
+Chips
+Bouncy
+Frizzle
+Dimples
+Gingersnap
+Tootsie
+Polkadot
+Giggles
+Pebbles
+Pippin
+Pumpernickel
+Wobblebottom
+Whiskerface
+Squeakers
+Gumdrops
+Noodlebutt
+Snuffles
+Sprinkleberry
+Muffin
+Bubbles
+Fiddlesticks
+Niblet
+Wuzzle
+Pudding
+Bouncykins
+Caramel
+Snickerdoodle
+Zephyr (a playful, energetic squirrel)
+Luna (a graceful, moon-loving peacock)
+Nimbus (a fluffy white cloud-like bunny)
+Darwin (an inquisitive and intelligent chameleon)
+Jinx (a mischievous black cat with magical powers)
+Tango (a smooth and stylish fox)
+Ziggy (a curious and adventurous monkey)
+Bella (a beautiful and melodious blue jay)
+Pippin (a tiny but confident chickadee)
+Maverick (a fearless and independent penguin)
+Whiskers (a friendly and whiskered hamster)
+Pebbles (a tiny and colorful turtle)
+Remy (a clever and resourceful raccoon)
+Nala (a wise and regal lioness)
+Poppy (a cheerful and garden-loving ladybug)
+Milo (a spunky and active kangaroo)
+Biscuit (a cute and biscuit-colored guinea pig)
+Willow (a graceful and wise owl)
+Dash (a speedy and agile cheetah)
+Saffron (a vibrant and curious goldfish)
+Jasper (a cool and laid-back turtle)
+Coco (a fashionable and trend-setting butterfly)
+Gizmo (a tech-savvy and gadget-loving parrot)
+Hazel (a clever and nuts-obsessed squirrel)
+Zara (a sleek and mysterious black panther)
+Apollo (a majestic and regal horse)
+Cricket (a tiny and chirpy cricket)
+Zuzu (an adorable and fluffy baby elephant)
+Peach (a sweet and playful kitten)
+Buzz (a buzzing and adventurous bee)
+Dottie (a spotty and lively ladybug)
+Finnegan (a mischievous and spirited wolf pup)
+Twinkle (a tiny and twinkling firefly)
+Pippa (a lively and acrobatic kangaroo)
+Whiskey (a wise and soulful retriever)
+Mochi (a cute and squishy penguin)
+Sprout (a tiny and curious turtle)
+Kiki (a sassy and talkative parrot)
+Hazel (a mischievous and nut-loving bunny)
+Jagger (a rockstar-like and charismatic leopard)
+Luna (a serene and nocturnal owl)
+Puddles (a playful and puddle-jumping frog)
+Ziggy (a zig-zagging and energetic lizard)
+Tango (a fiery and passionate flamingo)
+Bella (a charming and graceful gazelle)
+Marbles (a playful and multi-colored hamster)
+Whiskers (a wise and whiskered owl)
+Nibbles (a cheeky and carrot-chomping rabbit)
+Pepper (a spicy and adventurous hedgehog)
+Socks (a playful and patterned kitty)
+Whiskerbits
+Sprinkles
+Zephyr
+Pippins
+Wiggles
+Bumblebee
+Snugglepaws
+Zigzag
+Munchkin
+Doodlebug
+Fuzzbucket
+Dazzle
+Cinnamon
+Giggles
+Noodle
+Snickers
+Fluffernutter
+Sparkles
+Snicket
+Wobblebottom
+Fiddlesticks
+Mischief
+Polka Dot
+Sassafras
+Bubblegum
+Wigglywoo
+Cuddlepuff
+Gingersnap
+Tumbleweed
+Pixie
+Glimmer
+Squiggle
+Jellybean
+Razzle Dazzle
+Tinkerbell
+Fiddlefaddle
+Woobly
+Snufflebottom
+Nibbles
+Whiskerface
+Bumblebee
+Skittles
+Ziggy
+Waffle
+Marshmallow
+Wigglywag
+Pudding
+Snugglemuffin
+Zippity-Doo-Da
+Bouncycastle
