@@ -1,0 +1,950 @@
+1. Whisker Doodle
+2. Noodle Paws
+3. Fluffy McSquiggles
+4. Biscuit Bumpkin
+5. Squeakers McFloof
+6. Wiggly Whiskers
+7. Pippin Paws
+8. Fuzzy McWubbles
+9. Nibbles McGiggles
+10. Munchkin Muffin
+11. Cuddlesnoot
+12. Wigglebutt
+13. Furry McSnugglekins
+14. Skittlesniff
+15. Fluffernutter
+16. Wiggletail
+17. Snugglebug
+18. Puddlesnoot
+19. Wobbletoes
+20. Twerpington
+21. Fizzlesnout
+22. Cuddlemonster
+23. Floofylicious
+24. Wigglesworth
+25. Skippitydoo
+26. Sassypants
+27. Puddlejumper
+28. Snickerdoodle
+29. Bumblebee Bop
+30. Curlywhiskers
+31. Noodle Nuzzler
+32. Gigglesnort
+33. Fuzzball McGee
+34. Ticklesnout
+35. Puddlepudding
+36. Wobblewhiskers
+37. Banana Bounce
+38. Pippity Pop
+39. Whiskersnuggle
+40. Fuzzyfoot
+41. Wigglebuns
+42. Bubblegum Belly
+43. Snuggletoes
+44. Squeakybop
+45. Cuddlefish
+46. Bumblywump
+47. Wobbletoes
+48. Fluffernugget
+49. Nibblesnort
+50. Munchkinmuffin
+1. Ziggy the Zebra
+2. Luna the Lemur
+3. Jinx the Jaguar
+4. Milo the Meerkat
+5. Rosie the Raccoon
+6. Oscar the Octopus
+7. Pippin the Pangolin
+8. Kiwi the Kangaroo
+9. Nala the Narwhal
+10. Bongo the Baboon
+11. Zara the Zorilla
+12. Quilliam the Quokka
+13. Gigi the Gila Monster
+14. Pearl the Penguin
+15. Remy the Red Panda
+16. Taz the Tortoise
+17. Elvis the Elephant
+18. Finley the Flamingo
+19. Wally the Warthog
+20. Tilly the Tiger
+21. Benny the Bat
+22. Dotty the Dingo
+23. Kiki the Koala
+24. Gideon the Gorilla
+25. Winnie the Walrus
+26. Sasha the Sloth
+27. Ollie the Otter
+28. Lulu the Llama
+29. Chester the Cheetah
+30. Penny the Platypus
+31. Trixie the Tapir
+32. Bruno the Butterfly
+33. Olive the Orangutan
+34. Patch the Peacock
+35. Rocky the Rattlesnake
+36. Marley the Manatee
+37. Zeke the Zebra Finch
+38. Hazel the Hedgehog
+39. Jasper the Jellyfish
+40. Chloe the Chinchilla
+41. Zephyr the Zebra Shark
+42. Cleo the Capybara
+43. Parker the Puffin
+44. Mabel the Mouse
+45. Ryder the Red Fox
+46. Indie the Impala
+47. Quincy the Quail
+48. Koko the Komodo Dragon
+49. Apollo the Albino Alligator
+50. Luna the Lyrebird
+1. Zippy the Zebra
+2. Wiggles the Walrus
+3. Furry the Ferret
+4. Bubbles the Bunny
+5. Sprinkles the Sloth
+6. Giggles the Giraffe
+7. Whiskers the Weasel
+8. Puddles the Penguin
+9. Fuzzy the Fox
+10. Sparkle the Squirrel
+11. Bongo the Baboon
+12. Nimbus the Narwhal
+13. Tango the Toucan
+14. Zigzag the Zebu
+15. Jinx the Jaguar
+16. Whiskerface the Warthog
+17. Pippin the Platypus
+18. Rascal the Raccoon
+19. Squiggles the Snail
+20. Zara the Zebrafish
+21. Chompers the Cheetah
+22. Wobbles the Wombat
+23. Skittles the Skunk
+24. Chatterbox the Chipmunk
+25. Midnight the Moon Jellyfish
+26. Snuffles the Stingray
+27. Scooter the Seahorse
+28. Snickers the Snapping Turtle
+29. Flicker the Firefly
+30. Flutter the Flamingo
+31. Whistle the Warbler
+32. Boomer the Butterfly
+33. Pepper the Peacock
+34. Sprout the Spider
+35. Snugglepuff the Sloth Bear
+36. Cuddles the Capybara
+37. Nibbles the Newt
+38. Twinkle the Tarantula
+39. Nimbus the Nudibranch
+40. Quirky the Quokka
+41. Dizzy the Dolphin
+42. Zephyr the Zebra Finch
+43. Marbles the Manatee
+44. Squiggles the Salamander
+45. Whiskers the Wallaby
+46. Flick the Fennec Fox
+47. Cammie the Chameleon
+48. Rumble the Rhinoceros
+49. Pippa the Pygmy Goat
+50. Ziggy the Zonkey
+1. Ziggy
+2. Waffles
+3. Luna
+4. Pippin
+5. Quill
+6. Gizmo
+7. Zephyr
+8. Clover
+9. Apollo
+10. Biscuit
+11. Jinx
+12. Pickles
+13. Monarch
+14. Sprinkle
+15. Cricket
+16. Tango
+17. Noodle
+18. Whiskers
+19. Cinnamon
+20. Bongo
+21. Muffin
+22. Pebbles
+23. Marshmallow
+24. Jester
+25. Bubbles
+26. Popcorn
+27. Sprocket
+28. Jellybean
+29. Doodle
+30. Peanut
+31. Pookie
+32. Maverick
+33. Twinkle
+34. Snickers
+35. Quirk
+36. Fizzy
+37. Pistachio
+38. Giggles
+39. Bumblebee
+40. Mischief
+41. Taffy
+42. Dazzle
+43. Tater Tot
+44. Nugget
+45. Polka Dot
+46. Kiwi
+47. Boomer
+48. Cupcake
+49. Rascal
+50. Sprout
+1. Zoodle the Zebra
+2. Quackamole the Duck
+3. Fuzzle the Ferret
+4. Wiggles the Wombat
+5. Squiggle the Squid
+6. Bumble the Butterfly
+7. Snickerdoodle the Snail
+8. Jeepers the Jellyfish
+9. Whiskers the Wallaby
+10. Jazzy the Jaguar
+11. Pippin the Penguin
+12. Ruffles the Raccoon
+13. Bongo the Bumblebee
+14. Razzle the Rhino
+15. Hissy the Hedgehog
+16. Wiggly the Whale
+17. Fizzles the Fox
+18. Puddles the Platypus
+19. Noodle the Narwhal
+20. Kuiper the Kangaroo
+21. Jumble the Jellyfish
+22. Dottie the Dalmatian
+23. Cinnamon the Cheetah
+24. Ziggy the Zebu
+25. Tinker the Toucan
+26. Hopper the Hummingbird
+27. Bandit the Bat
+28. Pebbles the Pelican
+29. Sprinkles the Squirrel
+30. Tango the Tiger
+31. Doodlebug the Dingo
+32. Winkles the Walrus
+33. Snoop the Sloth
+34. Sparkle the Stingray
+35. Fandango the Flamingo
+36. Zippy the Zonkey
+37. Marble the Meerkat
+38. Whimsy the Warthog
+39. Jingle the Jackal
+40. Gizmo the Gecko
+41. Kismet the Koala
+42. Nibbles the Numbat
+43. Pudding the Porcupine
+44. Bolt the Bison
+45. Sundae the Seahorse
+46. Fidget the Falcon
+47. Quibble the Quokka
+48. Tootsie the Tortoise
+49. Puffin the Poodle
+50. Fuzzball the Fennec Fox
+1. Ziggy
+2. Whiskers
+3. Jinx
+4. Noodle
+5. Luna
+6. Bubbles
+7. Sprinkles
+8. Champ
+9. Mischief
+10. Gizmo
+11. Pippin
+12. Waffles
+13. Snickers
+14. Dash
+15. Pebbles
+16. Popcorn
+17. Gizmo
+18. Jellybean
+19. Tango
+20. Chirp
+21. Bonkers
+22. Peaches
+23. Kiwi
+24. Nibbles
+25. Zorro
+26. Bongo
+27. Nutmeg
+28. Tinkerbell
+29. Fuzzball
+30. Snuffles
+31. Sprout
+32. Razzle
+33. Truffle
+34. Puddles
+35. Muffin
+36. Quicksilver
+37. Tootsie
+38. Pickles
+39. Jester
+40. Squeak
+41. Poppy
+42. Biscuit
+43. Noodle
+44. Whiskers
+45. Snickerdoodle
+46. Bubblegum
+47. Sprinkles
+48. Mischief
+49. Marshmallow
+50. Pippin
+1. Zephyr - for a fast and agile animal
+2. Luna - for a nocturnal and mysterious animal
+3. Ozzy - for a rock and roll loving animal
+4. Zorro - for a cunning and masked animal
+5. Willow - for a graceful and elegant animal
+6. Blitz - for an energetic and lightning-fast animal
+7. Jasper - for a gem-like and colorful animal
+8. Noodle - for a long and slinky animal
+9. Pepper - for a spunky and peppery animal
+10. Tinkerbell - for a small and mischievous animal
+11. Nimbus - for a fluffy and cloud-like animal
+12. Apollo - for a majestic and regal animal
+13. Pippin - for an adventurous and curious animal
+14. Juno - for a fierce and independent animal
+15. Bubbles - for a bubbly and playful animal
+16. Cosmo - for a space-loving and otherworldly animal
+17. Waffles - for a sweet and fluffy animal
+18. Zara - for a stylish and fashionable animal
+19. Fergus - for a strong and loyal animal
+20. Puddles - for a water-loving and splish-splashing animal
+21. Ivy - for a climbing and nature-loving animal
+22. Gizmo - for a tech-savvy and gadget-loving animal
+23. Opal - for a rare and unique animal
+24. Sprout - for a tiny and growing animal
+25. Maverick - for a rebellious and unconventional animal
+26. Muffin - for a soft and sweet animal
+27. Echo - for a talkative and echo-locating animal
+28. Tango - for a dance-loving and graceful animal
+29. Basil - for a herb-loving and aromatic animal
+30. Loki - for a mischievous and prankster animal
+31. Breeze - for a gentle and breezy animal
+32. Pixel - for a pixel-perfect and digitally inclined animal
+33. Snickers - for a funny and snack-loving animal
+34. Twinkle - for a starry-eyed and magical animal
+35. Mochi - for a chewy and squishy animal
+36. Marbles - for a playful and marble-eyed animal
+37. Ziggy - for a zigzagging and groovy animal
+38. Poppy - for a cheery and vibrant animal
+39. Sprocket - for a mechanical and gear-loving animal
+40. Kiwi - for a sweet and tangy animal
+41. Bongo - for a drumming and rhythmic animal
+42. Cocoa - for a warm and chocolaty animal
+43. Gizmo - for a curious and gadget-loving animal
+44. Mischief - for a playful and mischievous animal
+45. Sage - for a wise and knowledgeable animal
+46. Marmalade - for a bright and orange-colored animal
+47. Loki - for a cunning and mischief-making animal
+48. Snickerdoodle - for a sweet and cinnamon-spiced animal
+49. Fidget - for a restless and energetic animal
+50. Nibbles - for a small and nibbling animal
+1. Wiggles
+2. Sparkles
+3. Ziggy
+4. Whiskers
+5. Bubbles
+6. Popcorn
+7. Snickers
+8. Noodle
+9. Jellybean
+10. Coconut
+11. Tater Tot
+12. Fuzzball
+13. Pippin
+14. Gingersnap
+15. Sprinkles
+16. Waffle
+17. Biscuit
+18. Wiggly Worm
+19. Gumdrop
+20. Tumbleweed
+21. Cuddles
+22. Marshmallow
+23. Peanut
+24. Pebbles
+25. Toffee
+26. Pudding
+27. Fiddlesticks
+28. Cinnamon
+29. Sassafras
+30. Bitsy
+31. Wobble
+32. Squeaky
+33. Speckles
+34. Bumblebee
+35. Cheesecake
+36. Twinkle Toes
+37. Chompers
+38. Jingle
+39. Whiskersnip
+40. Bouncy
+41. Buttercup
+42. Poptart
+43. Giggles
+44. Pickle
+45. Nibbles
+46. Flicker
+47. Tickles
+48. Honeybee
+49. Silly Goose
+50. Puffin
+1. Ziggy
+2. Luna
+3. Maverick
+4. Cleopatra
+5. Nimbus
+6. Gizmo
+7. Aurora
+8. Jinx
+9. Bubbles
+10. Zara
+11. Kiwi
+12. Frodo
+13. Noodle
+14. Zephyr
+15. Sprinkles
+16. Scooter
+17. Luna-tic
+18. Mojo
+19. Poppy
+20. Jellybean
+21. Waffles
+22. Whiskers
+23. Peanut
+24. Turbo
+25. Buttercup
+26. Snickers
+27. Zazu
+28. Pippin
+29. Peaches
+30. Bonkers
+31. Squiggles
+32. Ziggles
+33. Nibbles
+34. Gizzy
+35. Sizzle
+36. Quicksilver
+37. Tater Tot
+38. Biscuit
+39. Doodlebug
+40. Moonlight
+41. Sprout
+42. Zephyrine
+43. Marshmallow
+44. Buzzy
+45. Snuggles
+46. Crumb
+47. Wiggles
+48. Sparkle
+49. Pudding
+50. Giggles
+1. Ziggy the Zebra
+2. Luna the Llama
+3. Bubble the Bottlenose Dolphin
+4. Whiskers the Wolverine
+5. Sparkle the Seahorse
+6. Gizmo the Gecko
+7. Jinx the Jackal
+8. Clover the Chameleon
+9. Bubbles the Boa Constrictor
+10. Peanut the Pangolin
+11. Squiggle the Squirrel
+12. Pippin the Peacock
+13. Noodle the Newt
+14. Twinkle the Turtle
+15. Zephyr the Zorilla
+16. Pickles the Porcupine
+17. Tango the Tarantula
+18. Dizzy the Dingo
+19. Koala the Kangaroo
+20. Biscuit the Bat
+21. Puddles the Platypus
+22. Zuzu the Zebu
+23. Whimsy the Wallaby
+24. Wobbles the Wombat
+25. Sprinkle the Skunk
+26. Chompers the Chipmunk
+27. Boomer the Bandicoot
+28. Flipper the Flamingo
+29. Muffin the Mongoose
+30. Spark the Snail
+31. Quirk the Quokka
+32. Jingle the Jellyfish
+33. Snickers the Sloth
+34. Poppy the Puffin
+35. Razzle the Racoon
+36. Pogo the Pelican
+37. Flicker the Fossa
+38. Munchkin the Marmoset
+39. Pippa the Penguin
+40. Smudge the Salamander
+41. Nutmeg the Narwhal
+42. Whisker the Walrus
+43. Wiggles the Weasel
+44. Nibbles the Numbat
+45. Squishy the Stingray
+46. Winky the Lemur
+47. Wobble the Warthog
+48. Nimbus the Narwhal
+49. Fluffernutter the Fennec Fox
+50. Pizzazz the Puma
+1. Ziggy
+2. Luna
+3. Pepper
+4. Noodle
+5. Biscuit
+6. Pippin
+7. Gizmo
+8. Tofu
+9. Waffles
+10. Squiggles
+11. Nutmeg
+12. Snickers
+13. Pickles
+14. Kiwi
+15. Jellybean
+16. Sprinkles
+17. Muffin
+18. Marshmallow
+19. Whiskers
+20. Pudding
+21. Cricket
+22. Nibbles
+23. Magic
+24. Tango
+25. Pebbles
+26. Doodle
+27. Button
+28. Zephyr
+29. Wiggles
+30. Bubbles
+31. Jax
+32. Mango
+33. Olive
+34. Panda
+35. Peanut
+36. Quirk
+37. Rascal
+38. Sprout
+39. Truffle
+40. Sparkle
+41. Tic Tac
+42. Velcro
+43. Willow
+44. Yogi
+45. Zara
+46. Churro
+47. Giggles
+48. Mischief
+49. Tater Tot
+50. Zuzu
+1. Blizzard
+2. Waffles
+3. Luna
+4. Gizmo
+5. Zephyr
+6. Noodle
+7. Jazz
+8. Dash
+9. Willow
+10. Moomba
+11. Sprinkles
+12. Navi
+13. Squiggle
+14. Bumblebee
+15. Tango
+16. Whiskers
+17. Zelda
+18. Ozzy
+19. Puddles
+20. Sprocket
+21. Biscuit
+22. Pippin
+23. Peanut
+24. Flicker
+25. Nimbus
+26. Tango
+27. Snickerdoodle
+28. Zara
+29. Quicksilver
+30. Jinx
+31. Mochi
+32. Rumble
+33. Pixel
+34. Nibbles
+35. Sparkle
+36. Finnegan
+37. Sprout
+38. Cookie
+39. Nova
+40. Snickers
+41. Quirk
+42. Luna
+43. Ziggy
+44. Whimsey
+45. Fidget
+46. River
+47. Bongo
+48. Marshmallow
+49. Scooter
+50. Breeze
+1. Ziggy
+2. Luna
+3. Waffles
+4. Gizmo
+5. Noodle
+6. Tango
+7. Quirk
+8. Pippin
+9. Bubbles
+10. Munchkin
+11. Pixel
+12. Sprinkle
+13. Zephyr
+14. Wiggles
+15. Jinx
+16. Momo
+17. Snickers
+18. Puddles
+19. Whiskers
+20. Cheeks
+21. Twinkle
+22. Biscuit
+23. Fuzzy
+24. Popcorn
+25. Peanut
+26. Pepper
+27. Niblet
+28. Jagger
+29. Sushi
+30. Honeybee
+31. Razzle
+32. Fidget
+33. Marbles
+34. Doodle
+35. Sprout
+36. Cinnamon
+37. Dazzle
+38. Bongo
+39. Truffle
+40. Bubbly
+41. Snickerdoodle
+42. Glimmer
+43. Ruffles
+44. Pippa
+45. Fiddlesticks
+46. Kiwi
+47. Fancypants
+48. Quigley
+49. Noodle
+50. Whisper
+1. Zephyr the Zebra
+2. Luna the Llama
+3. Sprocket the Sloth
+4. Pippin the Pangolin
+5. Jax the Jaguar
+6. Willow the Wallaby
+7. Gizmo the Gecko
+8. Waffles the Wombat
+9. Echo the Emu
+10. Mango the Manatee
+11. Willow the Woodpecker
+12. Pogo the Penguin
+13. Zara the Zebu
+14. Tango the Toucan
+15. Kiwi the Koala
+16. Pebbles the Pelican
+17. Biscuit the Bat
+18. Dash the Dolphin
+19. Widget the Walrus
+20. Twinkle the Turtle
+21. Quake the Quokka
+22. Buzz the Batfish
+23. Noodle the Narwhal
+24. Pixel the Platypus
+25. Ziggy the Zonkey
+26. Turbo the Tarantula
+27. Wiggles the Wombat
+28. Bongo the Baboon
+29. Sprinkle the Seahorse
+30. Curly the Chameleon
+31. Iggy the Iguana
+32. Leela the Lemur
+33. Oreo the Octopus
+34. Fuzzy the Ferret
+35. Quincy the Quail
+36. Domino the Dingo
+37. Ziggy the Zebra Finch
+38. Nibbles the Numbat
+39. Zola the Zonkey
+40. Jinx the Jellyfish
+41. Sprout the Snail
+42. Rocky the Raccoon
+43. Mochi the Meerkat
+44. Tiki the Tapir
+45. Wiggles the Worm
+46. Zara the Zorilla
+47. Nitro the Nuthatch
+48. Chompers the Chipmunk
+49. Zuzu the Zebra Shark
+50. Skipper the Stingray
+1. Zephyr
+2. Luna
+3. Jasper
+4. Pixel
+5. Velvet
+6. Honeydew
+7. Nimbus
+8. Zara
+9. Moxie
+10. Orion
+11. Pippin
+12. Tango
+13. Ozzy
+14. Stardust
+15. Coco
+16. Snickers
+17. Darcy
+18. Blitz
+19. Whiskers
+20. Marbles
+21. Zuzu
+22. Cricket
+23. Gizmo
+24. Juniper
+25. Jinx
+26. Bandit
+27. Noodle
+28. Twinkle
+29. Peppermint
+30. Saffron
+31. Kismet
+32. Gingersnap
+33. Puddles
+34. Cinnamon
+35. Sprinkles
+36. Maverick
+37. Bubbles
+38. Willow
+39. Zorro
+40. Slinky
+41. Peanut
+42. Pickles
+43. Biscuit
+44. Waffles
+45. Marshmallow
+46. Gumball
+47. Sassafras
+48. Nimbus
+49. Gulch
+50. Tango
+1. Whiskerbits
+2. Zippereel
+3. Flutterpaws
+4. Tumbletoes
+5. Gigglesnout
+6. Snugglefluff
+7. Bumblesnuggle
+8. Hopperwings
+9. Fuzzysprout
+10. Twinklewhisk
+11. Wigglesnout
+12. Bouncetail
+13. Puddlestomp
+14. Nibblesnoot
+15. Cozycurls
+16. Snufflenose
+17. Snickerpaws
+18. Squeakles
+19. Wobblewings
+20. Feathersniffle
+21. Pouncebound
+22. Wagglenose
+23. Whifflewhisk
+24. Squeakhugs
+25. Tussletoe
+26. Glimmertail
+27. Frogleap
+28. Flutterfur
+29. Hopscotch
+30. Cuddleclaws
+31. Wrigglepaw
+32. Tumblefluff
+33. Nuzzlesniff
+34. Snickerfluff
+35. Waddlewhisk
+36. Blinkytail
+37. Sprinklesniff
+38. Bouncybum
+39. Strandswirl
+40. Breezepaws
+41. Trickletoes
+42. Scuttlefluff
+43. Fumblebelly
+44. Squeezywhisk
+45. Jollysnout
+46. Tippytail
+47. Zippysniff
+48. Doodlesprout
+49. Perkynose
+50. Snugglethump
+1. Bumblehoot
+2. Waffles
+3. Whiskersnout
+4. Zippity
+5. Puddles
+6. Fuzzball
+7. Pepperoni
+8. Quirky
+9. Noodle
+10. Snickerdoodle
+11. Sprinkles
+12. Cuddlebug
+13. Tater Tot
+14. Jiggles
+15. Sassafras
+16. Fluffernutter
+17. Munchkin
+18. Marbles
+19. Biscuit
+20. Nibbles
+21. Doodlebug
+22. Wiggles
+23. Pickles
+24. Chips
+25. Bouncy
+26. Frizzle
+27. Dimples
+28. Gingersnap
+29. Tootsie
+30. Polkadot
+31. Giggles
+32. Pebbles
+33. Pippin
+34. Pumpernickel
+35. Wobblebottom
+36. Whiskerface
+37. Squeakers
+38. Gumdrops
+39. Noodlebutt
+40. Snuffles
+41. Sprinkleberry
+42. Muffin
+43. Bubbles
+44. Fiddlesticks
+45. Niblet
+46. Wuzzle
+47. Pudding
+48. Bouncykins
+49. Caramel
+50. Snickerdoodle
+1. Zephyr (a playful, energetic squirrel)
+2. Luna (a graceful, moon-loving peacock)
+3. Nimbus (a fluffy white cloud-like bunny)
+4. Darwin (an inquisitive and intelligent chameleon)
+5. Jinx (a mischievous black cat with magical powers)
+6. Tango (a smooth and stylish fox)
+7. Ziggy (a curious and adventurous monkey)
+8. Bella (a beautiful and melodious blue jay)
+9. Pippin (a tiny but confident chickadee)
+10. Maverick (a fearless and independent penguin)
+11. Whiskers (a friendly and whiskered hamster)
+12. Pebbles (a tiny and colorful turtle)
+13. Remy (a clever and resourceful raccoon)
+14. Nala (a wise and regal lioness)
+15. Poppy (a cheerful and garden-loving ladybug)
+16. Milo (a spunky and active kangaroo)
+17. Biscuit (a cute and biscuit-colored guinea pig)
+18. Willow (a graceful and wise owl)
+19. Dash (a speedy and agile cheetah)
+20. Saffron (a vibrant and curious goldfish)
+21. Jasper (a cool and laid-back turtle)
+22. Coco (a fashionable and trend-setting butterfly)
+23. Gizmo (a tech-savvy and gadget-loving parrot)
+24. Hazel (a clever and nuts-obsessed squirrel)
+25. Zara (a sleek and mysterious black panther)
+26. Apollo (a majestic and regal horse)
+27. Cricket (a tiny and chirpy cricket)
+28. Zuzu (an adorable and fluffy baby elephant)
+29. Peach (a sweet and playful kitten)
+30. Buzz (a buzzing and adventurous bee)
+31. Dottie (a spotty and lively ladybug)
+32. Finnegan (a mischievous and spirited wolf pup)
+33. Twinkle (a tiny and twinkling firefly)
+34. Pippa (a lively and acrobatic kangaroo)
+35. Whiskey (a wise and soulful retriever)
+36. Mochi (a cute and squishy penguin)
+37. Sprout (a tiny and curious turtle)
+38. Kiki (a sassy and talkative parrot)
+39. Hazel (a mischievous and nut-loving bunny)
+40. Jagger (a rockstar-like and charismatic leopard)
+41. Luna (a serene and nocturnal owl)
+42. Puddles (a playful and puddle-jumping frog)
+43. Ziggy (a zig-zagging and energetic lizard)
+44. Tango (a fiery and passionate flamingo)
+45. Bella (a charming and graceful gazelle)
+46. Marbles (a playful and multi-colored hamster)
+47. Whiskers (a wise and whiskered owl)
+48. Nibbles (a cheeky and carrot-chomping rabbit)
+49. Pepper (a spicy and adventurous hedgehog)
+50. Socks (a playful and patterned kitty)
+1. Whiskerbits
+2. Sprinkles
+3. Zephyr
+4. Pippins
+5. Wiggles
+6. Bumblebee
+7. Snugglepaws
+8. Zigzag
+9. Munchkin
+10. Doodlebug
+11. Fuzzbucket
+12. Dazzle
+13. Cinnamon
+14. Giggles
+15. Noodle
+16. Snickers
+17. Fluffernutter
+18. Sparkles
+19. Snicket
+20. Wobblebottom
+21. Fiddlesticks
+22. Mischief
+23. Polka Dot
+24. Sassafras
+25. Bubblegum
+26. Wigglywoo
+27. Cuddlepuff
+28. Gingersnap
+29. Tumbleweed
+30. Pixie
+31. Glimmer
+32. Squiggle
+33. Jellybean
+34. Razzle Dazzle
+35. Tinkerbell
+36. Fiddlefaddle
+37. Woobly
+38. Snufflebottom
+39. Nibbles
+40. Whiskerface
+41. Bumblebee
+42. Skittles
+43. Ziggy
+44. Waffle
+45. Marshmallow
+46. Wigglywag
+47. Pudding
+48. Snugglemuffin
+49. Zippity-Doo-Da
+50. Bouncycastle
