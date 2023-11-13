@@ -68,10 +68,14 @@ pub fn order_statistic_rp<T>(arr: &[T], i: usize) -> Option<T>
     }
 }
 
-fn arg_insertion_sort<T>(arr: &[T]) -> Box<[usize]>
+fn arg_insertion_sort<'a, T>(arr: &[T], indices: &'a mut [usize])
     where T: Ord
 {
-    let mut indices: Vec<_> = (0..arr.len()).into_iter().collect();
+    // let mut indices: Vec<_> = (0..arr.len()).into_iter().collect();
+    indices
+        .iter_mut()
+        .enumerate()
+        .for_each(|(i, x)| *x = i);
 
     for i in 1..arr.len() {
         for j in (0..i).rev() {
@@ -82,8 +86,6 @@ fn arg_insertion_sort<T>(arr: &[T]) -> Box<[usize]>
             }
         }
     }
-    
-    indices.into_boxed_slice()
 }
 
 fn median_of_five<T>(arr: &[T], storage: &mut [T]) -> Option<usize>
@@ -92,8 +94,10 @@ fn median_of_five<T>(arr: &[T], storage: &mut [T]) -> Option<usize>
     match arr.len() {
         0 => None,
         1..=5 => {
-            let sorted_indices = arg_insertion_sort(arr);
-            let median = sorted_indices[sorted_indices.len() / 2];
+            let mut storage = [0, 0, 0, 0, 0];
+            let storage_indices = &mut storage[0..arr.len()];
+            arg_insertion_sort(arr, storage_indices);
+            let median = storage_indices[storage_indices.len() / 2];
             Some(median)
         }
         6.. => {
