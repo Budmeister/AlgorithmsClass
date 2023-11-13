@@ -71,11 +71,10 @@ pub fn order_statistic_rp<T>(arr: &[T], i: usize, count: &mut u32) -> Option<T>
     }
 }
 
-fn arg_insertion_sort<'a, T>(arr: &[T], indices: &'a mut [usize])
 fn arg_insertion_sort<T>(arr: &[T], count: &mut u32) -> Box<[usize]>
     where T: Ord
 {
-    // let mut indices: Vec<_> = (0..arr.len()).into_iter().collect();
+    let mut indices: Vec<_> = (0..arr.len()).into_iter().collect();
     indices
         .iter_mut()
         .enumerate()
@@ -91,6 +90,7 @@ fn arg_insertion_sort<T>(arr: &[T], count: &mut u32) -> Box<[usize]>
             }
         }
     }
+    indices.into_boxed_slice()
 }
 
 fn median_of_five<T>(arr: &[T], storage: &mut [T], count: &mut u32) -> Option<usize>
